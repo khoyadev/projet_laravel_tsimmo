@@ -16,11 +16,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// rokhaya a commenter
 Route::get('/', function () {
     return view('welcome');
 });
 
+//Route::get('/', 'App\Http\Controllers\ProprietaireController@index')->name('proprietaire.index');
     // Route::middleware(['auth'])->group(function () {
 
        // Les routes pour les propriétaires 
